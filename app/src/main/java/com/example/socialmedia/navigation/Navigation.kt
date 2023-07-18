@@ -11,7 +11,7 @@ import com.example.socialmedia.screen.Home
 import com.example.socialmedia.screen.Profile
 import com.example.socialmedia.screen.Reels
 import com.example.socialmedia.screen.Search
-import com.example.socialmedia.widgets.MyBottomNavigation.MyBottomBar
+import com.example.socialmedia.widgets.MyBottomBar
 import com.example.socialmedia.widgets.TopBar
 
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")

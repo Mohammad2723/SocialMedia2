@@ -16,16 +16,7 @@ import com.example.socialmedia.ui.theme.MyFont
 @Composable
 fun Home(navController: NavController) {
 
-    Column(
-        modifier = Modifier.fillMaxSize(),
-        verticalArrangement = Arrangement.Center,
-        horizontalAlignment = Alignment.CenterHorizontally
-    ) {
-          
-        Text(text = "Home" , fontFamily = MyFont.settikef, fontSize = 30.sp)
-        
-        
-    }
+
 
 
 }

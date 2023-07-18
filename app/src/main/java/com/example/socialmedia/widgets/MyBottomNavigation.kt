@@ -1,4 +1,4 @@
-package com.example.socialmedia.widgets.MyBottomNavigation
+package com.example.socialmedia.widgets
 
 import androidx.compose.material3.Icon
 import androidx.compose.material3.NavigationBar
