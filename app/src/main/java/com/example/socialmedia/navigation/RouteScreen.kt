@@ -6,5 +6,7 @@ enum class RouteScreen {
     Reels,
     Search,
     ShowStory,
+    Profile,
+    Add,
 
 }
