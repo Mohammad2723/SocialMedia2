@@ -1,5 +1,6 @@
 package com.example.socialmedia.widgets
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -21,6 +22,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.rotate
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -30,9 +32,8 @@ import com.example.socialmedia.ui.theme.MyFont
 @Composable
 fun TopBar() {
     Row(
-        modifier = Modifier.padding(top = 10.dp)
-            .fillMaxWidth()
-            .height(45.dp), horizontalArrangement = Arrangement.SpaceBetween
+        modifier = Modifier.fillMaxWidth()
+            .height(45.dp).background(Color(0xffefefef)), horizontalArrangement = Arrangement.SpaceBetween
     ) {
 
         Text(text = "Social Media", fontFamily = MyFont.settikef, fontSize = 25.sp)

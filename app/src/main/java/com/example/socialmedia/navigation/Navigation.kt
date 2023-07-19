@@ -21,7 +21,7 @@ fun Navigation() {
     val navController = rememberNavController()
 
 
-    Scaffold(topBar = { TopBar() }, bottomBar = { MyBottomBar(navController = navController) }) {
+    Scaffold( bottomBar = { MyBottomBar(navController = navController) }) {
         NavHost(navController = navController, startDestination = RouteScreen.Home.name) {
 
             //home
